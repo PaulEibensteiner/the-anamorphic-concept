@@ -25,25 +25,25 @@
 				</div>
 				<div class="form-group" id="show-me" style="display: none">
 					<label for="PriceIdPay">How much would you pay for such a sculpture</label>
-					<input type="range" class="form-control-range form-control-lg" id="PriceIdPay" value="0" min="0" max="200" oninput="priceout.value = PriceIdPay.value">
+					<input type="range" class="form-control-range form-control-lg" id="PriceIdPay" name="_price" value="0" min="0" max="200" oninput="priceout.value = PriceIdPay.value">
 					<output name="priceout" id="priceout">0</output> &euro;
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="form-group">
 					<label for="message">Optional critique -- increases present chance</label>
-					<textarea class="form-control" id="message" rows="7"></textarea>
+					<textarea class="form-control" id="message" name="message" rows="7"></textarea>
 				</div>
 				<div class="form-group">
 					{{ with .Site.Params.contact }}
-					<input type="email" class="form-control" id="inputEmail" placeholder="{{ .email_placeholder }}" name="_replyto" required>
+					<input type="email" class="form-control" id="inputEmail" placeholder="{{ .email_placeholder }}" name="_email" required>
 					<small id="emailHelp" class="form-text text-muted">{{ .email_disclaimer }}</small>
 					{{ end }}
 				</div>
 			</div>
 			<div class="col-md-12">
 				<div class="form-group">
-					<input type="hidden" name="_subject" value="New website query">
+					<input type="hidden" name="_subject" value="New survey submission">
 					<input type="text" name="_gotcha" style="display:none">
 					<button type="submit" class="btn btn-primary btn-outline" value="Send">{{ with .Site.Params.contact }}{{ .button_text }}{{ end }}</button>
 				</div>
