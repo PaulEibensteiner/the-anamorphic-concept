@@ -51,23 +51,23 @@ title = "The Anamorphic Concept"
   enable = true
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "The Mighty Hand"
+    subtitle = "Auguste Rodin"
     img = "img/mighty-hand.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "Muse"
+    subtitle = "Andrea Chénier"
     img = "img/muse.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "The Thinker"
+    subtitle = "Auguste Rodin"
     img = "img/the-thinker.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "Nike of Samothrace"
+    subtitle = "-"
     img = "img/victoria.jpg"
 
 # Contact section
