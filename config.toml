@@ -18,9 +18,9 @@ title = "The Anamorphic Concept"
 # Navigation section
 [params.nav]
   mission = "Our Mission"
-  services = "Services"
+  services = "Service"
   team = "The Team"
-  contact = "Get In Touch"
+  contact = "Survey"
   # Include logo instead if HOME:
   logo = "img/logo.svg"
 
