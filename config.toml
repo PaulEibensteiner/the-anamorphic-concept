@@ -1,8 +1,8 @@
 # Main config file for icon theme.
 theme = "icon"
-baseURL = "https://www.example.com/"
-languageCode = "en-AU"
-title = "The Anamoprhic Concept"
+baseURL = "https://the-anamorphic-concept.netlify.com/"
+languageCode = "en-US"
+title = "The Anamorphic Concept"
 
 # Metadata
 [params]
