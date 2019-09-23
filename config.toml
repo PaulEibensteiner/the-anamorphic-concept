@@ -13,7 +13,7 @@ title = "The Anamorphic Concept"
 [params.hero]
   img = "img/rino.jpg"
   title = "The Anamorphic Concept"
-  description = "created and 3d printed for you"
+  # description = "created and 3d printed for you"
 
 # Navigation section
 [params.nav]
@@ -29,7 +29,7 @@ title = "The Anamorphic Concept"
   enable = true
   video = false
   title = "Our Service"
-  description = "Our revolutionary program turns the 3d model of your choice into an anamorphic experience. Choose your Premade design or get in contact and send us your idea or finished design to get your custom sculpture."
+  description = "Our revolutionary program turns the 3d model of your choice into an anamorphic experience. Choose your premade design or get in contact and send us your idea or finished design to get your custom sculpture."
 
   [[params.services.item]]
     icon = "icon-note"

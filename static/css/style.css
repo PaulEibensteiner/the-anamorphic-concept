@@ -17,6 +17,15 @@ body.fh5co-overflow {
   width: 100%;
 }
 
+.mobile {
+  background:
+  linear-gradient(
+    rgba(0,0,0,0.30),
+    rgba(0,0,0,0.30)
+  ),
+  url(img/rino.jpg)
+}
+
 a {
   color: #69c2c8;
   -webkit-transition: 0.5s;
@@ -546,6 +555,7 @@ p {
 #fh5co-services {
   position: relative;
   padding: 3em 0;
+  background-color: white;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services {
