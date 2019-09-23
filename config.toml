@@ -12,7 +12,7 @@ title = "The Anamorphic Concept"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "img/rino.jpg"
-  title = "The Anamoprhic Concept"
+  title = "The Anamorphic Concept"
   description = "created and 3d printed for you"
 
 # Navigation section
