@@ -16,16 +16,6 @@ body.fh5co-overflow {
   overflow-x: hidden;
   width: 100%;
 }
-
-.mobile {
-  background:
-  linear-gradient(
-    rgba(0,0,0,0.30),
-    rgba(0,0,0,0.30)
-  ),
-  url(img/rino.jpg)
-}
-
 a {
   color: #69c2c8;
   -webkit-transition: 0.5s;
@@ -325,6 +315,16 @@ p {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
+  #fh5co-home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.3;
+  }
   .fh5co-heading .heading {
     font-size: 30px;
   }

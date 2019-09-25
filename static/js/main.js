@@ -277,17 +277,6 @@
        }
    });
 	};
-	
-	// mobile parallax
-	var mobileStellar = function() {
-		var ua = navigator.userAgent,
-			isMobileWebkit = /WebKit/.test(ua) && /Mobile/.test(ua);
-
-		if (isMobileWebkit) {
-			$('#fh5co-home').addClass('mobile');
-		}
-
-	}
 
 	// Document on load.
 	$(function(){
@@ -301,7 +290,6 @@
 		// sliderSayings();
 		offcanvasMenu();
 		mainMenuSticky();
-		mobileStellar();
 		burgerMenu();
 		scrolledWindow();
 		mobileMenuOutsideClick();
