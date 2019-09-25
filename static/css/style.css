@@ -28,8 +28,6 @@ a:hover, a:focus, a:active {
 
 h1 {
   font-family: 'Elsie Swash Caps', cursive;
-  font-
-  color: #000;
   margin-bottom: 30px;
 }
 
@@ -462,7 +460,7 @@ p {
   list-style: none;
   float: left;
   display: -moz-inline-stack;
-  display: inline-block;
+  display: block;
   zoom: 1;
   *display: inline;
   text-align: center;
@@ -670,7 +668,6 @@ p {
   font-size: 23px;
   color: #57D131;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -968,7 +965,7 @@ p {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   /* ideally, transition speed should match zoom duration */
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
