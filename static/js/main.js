@@ -17,12 +17,13 @@
 	};
 
 	var fullHeight = function() {
-		if ( !isiPad() || !isiPhone() ) {
-			$('.js-fullheight-home').css('height', $(window).height() - $('.fh5co-main-nav').height());
+		$('.js-fullheight-home').css('height', $(window).height() - $('.fh5co-main-nav').height());
+		// mobile fuck ipad and iphone
 			$(window).resize(function(){
-				$('.js-fullheight-home').css('height', $(window).height()  - $('.fh5co-main-nav').height());
-			})
-		}
+				if ( $(window).width() > 768 ) {
+					$('.js-fullheight-home').css('height', $(window).height()  - $('.fh5co-main-nav').height());
+				}
+			});
 	};
 
 	// Loading page
@@ -44,14 +45,11 @@
 	}
 
 	var gridAutoHeight = function() {
-		if (!isiPhone() || !isiPad()) {
-			$('.fh5co-grid-item').css('height', $('.fh5co-2col-inner').outerHeight()/2);
-		}
-		$(window).resize(function(){
-			if (!isiPhone() && !isiPad()) {
-				$('.fh5co-grid-item').css('height', $('.fh5co-2col-inner').outerHeight()/2);
-			}
-		});
+			$(window).resize(function(){
+				if (!($(window).width() < 768)) {
+						$('.fh5co-grid-item').css('height', $('.fh5co-2col-inner').outerHeight()/2);
+				}
+			});
 	}
 
 	var sliderSayings = function() {
